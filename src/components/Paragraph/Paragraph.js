@@ -1,8 +1,10 @@
 function Paragraph(props) {
 
   const style ={
-    fontSize: props.size
+    fontSize: props.size,
+    color: props.color
   }
+
 
 
 
@@ -10,7 +12,21 @@ function Paragraph(props) {
   return (
     <p style={style}>
       {props.children}
+
+
+
+      <>
+      <article>
+        {props.articles}
+      </article>
+      </>
+
+
+
+
     </p>
+
+    
   );
 }
 
