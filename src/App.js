@@ -1,5 +1,5 @@
 import Paragraph from "./components/Paragraph/Paragraph";
-
+import Alert from "./components/Alert/Alert";
 
 import Image from "./components/Image/Image";
 
@@ -46,6 +46,11 @@ function App() {
     <Image url={paris} width="150px" height="100px"/>
 
     {/* <img src={paris}  width="150px" height="100px"/> */}
+
+
+    <Alert>
+      this is simple alert
+    </Alert>
     
     </div>
   );
